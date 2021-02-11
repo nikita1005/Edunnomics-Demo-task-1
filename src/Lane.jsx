@@ -30,7 +30,7 @@ class Lane extends Component{
         
         return(
             <>
-            <Paper component={Card} style={{backgroundColor:"#E0F0FD"}}>
+            <Paper component={Card} style={{backgroundColor:"#E0F0FD"}}>  {/* */}
                 
                 <Grid container direction="row" component={Box} border={1} borderColor={'#87ceeb'} p={3}>
                     <Grid item sm={2}>
@@ -44,12 +44,12 @@ class Lane extends Component{
                          
                     </Grid>
 
-                    {/* <Grid container item sm={2} direction="row">
+                     <Grid container item sm={2} direction="row">
                         
                         <Button onClick={this.add}> <Typography variant="h5" style={{color:"black"}}>
-                         ADD </Typography> </Button>
+                         + </Typography> </Button>
                        
-                    </Grid> */}
+                    </Grid> 
                     
                 </Grid>
 
